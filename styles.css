@@ -1,0 +1,54 @@
+h1{
+    color: green;
+    background-color: lightgray;
+    font-size: 3rem;
+    font-family: 'Brush Script MT';
+    text-decoration: underline;
+    text-align: center;
+}
+.header{
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin-top: 0;
+}
+.top{
+    margin-top: 3em;
+}
+h2{
+    color: red;
+}
+h4{
+    display: inline;
+}
+p{
+    color: blue;
+    column-count: 1;
+}
+.lorem{
+    color: orange;
+    column-count: 2;
+}
+blockquote{
+    border: solid 1px rgb(197, 79, 207);
+}
+ol{
+    list-style-type: '> ';
+    text-shadow: 1px 1px lightgray;
+}
+ul{
+    text-shadow: 1px 1px lightgray;
+}
+li::marker{
+    color: blueviolet;
+}
+a[href]{
+    background-color: greenyellow;
+    text-transform: uppercase;
+}
+.upperLorem{
+    text-transform: uppercase;
+    column-count: 3;
+}
